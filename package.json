@@ -1,0 +1,26 @@
+{
+  "name": "git-site",
+  "version": "1.0.0",
+  "description": "link project [git site](https://rezagh2004.github.io/git-site/)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reza-gheybi/git-site.git"
+  },
+  "keywords": [],
+  "author": "reza.gh",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Reza-gheybi/git-site/issues"
+  },
+  "homepage": "https://github.com/Reza-gheybi/git-site#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "globals": "^17.6.0"
+  }
+}
