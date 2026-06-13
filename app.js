@@ -6,27 +6,21 @@ const login=(user)=>{
     }
 }
 
-const register=(user)=>{
-    return {user , token}
-}
+const register=(user)=> (user , token)
 
-const getme=(token)=>{
-    return user
-}
+const getme=(token)=> user
+
+
 
 const test=()=> false
 
-const addCourse=(course)=>{
-    return {
+const addCourse=(course)=>({
         message:"new course added successfully :))"
-    }
-}
+    })
 
-const removeCourse=(courseID)=>{
-    return {
+const removeCourse=(courseID)=>({
         message:"course Removed successfully :))"
-    }
-}
+    })
 
 const updateCourse=(course , courseID)=>{
     const isUpdated = true
